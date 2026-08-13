@@ -18,6 +18,7 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -42,6 +43,7 @@
                     <a href="https://github.com/Venkatpotla33" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
                 <a href="#contact" class="cta-button">Get in Touch</a>
+                <p style="margin-top: 14px; opacity: 0.85;">🟢 Open to Data Analyst / Data Scientist / Data Engineer roles</p>
             </div>
             
         </div>
@@ -52,7 +54,7 @@
         <h2>About Me</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>I'm Venkata Narayana Potla, currently pursuing my M.Tech in Data Science, with a strong focus on developing skills in statistical analysis, data visualization, and machine learning. I'm passionate about turning raw data into meaningful insights that drive informed decision-making.<p>
+                <p>I'm Venkata Narayana Potla, currently pursuing my M.Tech in Data Science, with a strong focus on machine learning, deep learning, and data visualization. My thesis work engineers behavioral features (CSS, EII, CFI) that lifted a churn prediction model's AUC from 0.9056 to 0.9082 on 40,000+ customer records, and I've built a DualGAN for unpaired image-to-image translation, improving PSNR from 4.28 to 8.00 over baseline. I'm passionate about turning raw data into meaningful insights that drive informed decision-making.<p>
                    <p> Alongside my studies, I've worked as a freelance Data Analyst on platforms like Fiverr and Upwork, where I collaborated with international clients to clean and analyze data, define KPIs, and build interactive Power BI dashboards.<p>
                     <p>Prior to freelancing, I completed an internship at Standard Access Private Limited, where I optimized SQL queries and improved the reliability of datasets by 40%, enabling faster, more accurate reporting.<p>
                     <p>Before transitioning into the data field, I spent over two years as a freelance photographer, where I honed my creativity, project management, and communication skills—abilities that now complement my analytical work.</p>
@@ -169,6 +171,10 @@
                 <img src="assets/AI.png" alt="Artificial Intelligence" style="width:48px;height:48px;display:block;margin:0 auto 10px;">
                 <h3>Artificial Intelligence</h3>
             </div>
+            <div class="skill-card">
+                <img src="assets/machine-learning.png" alt="Deep Learning - PyTorch and TensorFlow" style="width:48px;height:48px;display:block;margin:0 auto 10px;">
+                <h3>Deep Learning (PyTorch/TF)</h3>
+            </div>
         </div>
     </section>
 
@@ -176,6 +182,52 @@
     <section id="projects" class="projects">
         <h2>My Projects</h2>
         <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/AI.png" alt="DualGAN Unpaired Image Translation" style="width:100%;height:200px;object-fit:contain;background:#f4f4f8;padding:20px;box-sizing:border-box;">
+                <div class="project-info">
+                    <h3>DualGAN — Unpaired Image Translation</h3>
+                    <p><strong>Tools:</strong> Python, PyTorch, TensorFlow, CNNs, GANs</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Venkatpotla33/IMAGE-TO-IMAGE-TRANSLATION-MODEL-USING-DUALGAN-AND-COMPARISON-WITH-SIMPLE-GAN" target="_blank"><i class="fab fa-github"></i> GitHub Repo</a>
+                    </div>
+                    <ul>
+                        <li>Built a Dual Generative Adversarial Network for image-to-image translation without paired training data.</li>
+                        <li>Improved PSNR (image reconstruction quality) from 4.28 to 8.00 over the baseline model.</li>
+                        <li>Designed and trained convolutional generator/discriminator pairs with adversarial + cycle-consistency loss.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/statisctics.png" alt="Bank Term Deposit Subscription Prediction" style="width:100%;height:200px;object-fit:contain;background:#f4f4f8;padding:20px;box-sizing:border-box;">
+                <div class="project-info">
+                    <h3>Bank Term Deposit Subscription Prediction</h3>
+                    <p><strong>Tools:</strong> Python, Scikit-learn, Pandas</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Venkatpotla33/PREDICTING-TERM-DEPOSIT-SUBSCRIPTIONS-USING-CALL-DURATION" target="_blank"><i class="fab fa-github"></i> GitHub Repo</a>
+                    </div>
+                    <ul>
+                        <li>Built an end-to-end machine learning pipeline for predicting customer term deposit subscriptions using the Bank Marketing dataset containing 40K+ customer records.</li>
+                        <li>Engineered three novel behavioral features—Customer Stability Score (CSS), Engagement Intensity Index (EII), and Campaign Fatigue Indicator (CFI)—to improve predictive performance.</li>
+                        <li>Increased prediction accuracy from 90.12% to 90.22% and improved ROC-AUC from 0.9056 to 0.9082 through feature engineering and comparative model evaluation.</li>
+                        <li>Evaluated models using ROC-AUC, Precision, Recall, F1-score, Learning Curves, and Confusion Matrix to improve customer targeting and campaign efficiency.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/analysis.png" alt="Ghost Kitchen Detection" style="width:100%;height:200px;object-fit:contain;background:#f4f4f8;padding:20px;box-sizing:border-box;">
+                <div class="project-info">
+                    <h3>Ghost Kitchen Detection <em>(in progress)</em></h3>
+                    <p><strong>Tools:</strong> Excel, SQL, Python, Power BI</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Venkatpotla33" target="_blank"><i class="fab fa-github"></i> GitHub Repo</a>
+                    </div>
+                    <ul>
+                        <li>Detecting co-located, multi-brand delivery kitchens from Zomato restaurant data.</li>
+                        <li>Identified 604 co-located clusters spanning 141 cities across 9,551+ restaurant records.</li>
+                        <li>End-to-end four-tool pipeline: Excel cleaning, SQL clustering logic, Python geo-analysis, Power BI reporting.</li>
+                    </ul>
+                </div>
+            </div>
             <div class="project-card">
                 <img src="assets/ecommerce.png" alt="Ecommerce Data Analysis" style="width:100%;height:auto;max-height:200px;object-fit:cover;">
                 <div class="project-info">
@@ -227,6 +279,25 @@
         </div>
     </section>
 
+    <!-- Certifications Section -->
+    <section id="certifications" class="skills">
+        <h2>Certifications</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Google Data Analytics</h3>
+            </div>
+            <div class="skill-card">
+                <h3>HackerRank SQL</h3>
+            </div>
+            <div class="skill-card">
+                <h3>PwC Power BI Job Simulation</h3>
+            </div>
+            <div class="skill-card">
+                <h3>Microsoft AI Skills Fest 2026</h3>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2>Get In Touch</h2>
@@ -234,7 +305,7 @@
             <div class="contact-info">
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <p>venkatpotla33@gmail.com</p>
+                    <p>venkatpotla133@gmail.com</p>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-phone"></i>
@@ -256,7 +327,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Venkata Narayana Potla. Data Into Insights❤️</p>
+        <p>&copy; 2026 Venkata Narayana Potla. Data Into Insights❤️</p>
         <p>All rights reserved.</p>
     </footer>
 
